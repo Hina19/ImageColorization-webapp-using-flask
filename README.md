@@ -32,7 +32,7 @@ Running the application:
 <pre> export FLASK_APP=ImageColorization
       export FLASK_DEBUG=1
       flask run
-Application run in local environment by running  with adress 127.0.0.1:5000</pre>
+Application run in local environment by running  with address 127.0.0.1:5000</pre>
 
 
 <h4>Screenshots:</h4>
