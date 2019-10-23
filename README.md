@@ -65,5 +65,6 @@ Application run in local environment by running  with address 127.0.0.1:5000</pr
 
 <h4>References:</h4>
 
+<a href="https://flask.palletsprojects.com/en/1.1.x/quickstart/">https://flask.palletsprojects.com/en/1.1.x/quickstart/</a>
 <a href="https://scotch.io/tutorials/authentication-and-authorization-with-flask-login">https://scotch.io/tutorials/authentication-and-authorization-with-flask-login</a>
 <a href="https://www.pyimagesearch.com/2019/02/25/black-and-white-image-colorization-with-opencv-and-deep-learning/">https://www.pyimagesearch.com/2019/02/25/black-and-white-image-colorization-with-opencv-and-deep-learning/</a>
