@@ -1,7 +1,7 @@
 # ImageColorization-webapp-using-flask
-<h3>Team: Standalone</h3>
+<h3>Team: Standalone</h3><br>
 Objective:
-  <p>Simple application for coloring the balck and white images using pretrained <a href="https://drive.google.com/file/d/1GYBNq9USP1c_waUiiz6Lr0PJLH_ebmRv/view?usp=sharing">caffe model</a> (download and save that model in folder model).</p><br><br>
+  <p>Simple application for coloring the balck and white images using pretrained <a href="https://drive.google.com/file/d/1GYBNq9USP1c_waUiiz6Lr0PJLH_ebmRv/view?usp=sharing">caffe model</a> (download and save that model in folder model).</p><br>
 For Authentication:
 <ul>
   <li>Use the Flask-Login library for session management</li>
@@ -11,7 +11,7 @@ For Authentication:
 <li>Create sign up and login forms for our users to create accounts and login</li>
 <li>Flash error messages back to users when something goes wrong</li>
   <li>Use information from the user's account to display on the profile page</li></ul>
-<br><br>
+<br>
 For Model:
   <p>
  The technique that we’ll be using here today is from Zhang et al.’s 2016 ECCV paper, <a href="http://richzhang.github.io/colorization/">Colorful Image Colorization</a>.
@@ -39,7 +39,7 @@ Application run in local environment by running  with adress 127.0.0.1:5000</pre
 
 1.HOME PAGE:
 
-<img src="https://i.imgur.com/bSfXzbv.png">
+<img src="https://i.imgur.com/bSfXzbv.png" >
 
 2.SIGN_UP PAGE:
 
@@ -62,3 +62,7 @@ Application run in local environment by running  with adress 127.0.0.1:5000</pre
 <img src="https://i.imgur.com/LFaVA4T.png">
 <img src="https://i.imgur.com/MT3zmz9.png">
 <img src="https://i.imgur.com/sgiu17j.png">
+
+<h4>References:</h4>
+<a href="https://scotch.io/tutorials/authentication-and-authorization-with-flask-login"></a>
+<a href="https://www.pyimagesearch.com/2019/02/25/black-and-white-image-colorization-with-opencv-and-deep-learning/"></a>
