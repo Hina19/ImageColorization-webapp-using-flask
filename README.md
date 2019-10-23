@@ -53,14 +53,16 @@ Application run in local environment by running  with address 127.0.0.1:5000</pr
 
 <img src="https://i.imgur.com/9RWLlPG.png">
 
-5. UPLOAD IMAGE:
+5.UPLOAD IMAGE:
 
-<img src="https://i.imgur.com/9RWLlPG.png">
+<img src="https://i.imgur.com/QlnNO9x.png">
 
-6. RESULTS:
+6.RESULTS:
 
 <img src="https://i.imgur.com/LFaVA4T.png">
+
 <img src="https://i.imgur.com/MT3zmz9.png">
+
 <img src="https://i.imgur.com/sgiu17j.png">
 
 <h4>References:</h4>
