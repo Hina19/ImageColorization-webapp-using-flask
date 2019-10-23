@@ -28,6 +28,11 @@ Similar to the RGB color space, the Lab color space has three channels. But unli
   <li>The a channel encodes green-red.</li>
   <li>And the b channel encodes blue-yellow</li></ul></p>
 
+Database Configuration:
+<pre>#python
+from ImageColorization import db, create_app
+db.create_all(app=create_app()) # pass the create_app result so Flask-SQLAlchemy gets the configuration.</pre>
+
 Running the application:
 <pre> export FLASK_APP=ImageColorization
       export FLASK_DEBUG=1
@@ -66,7 +71,7 @@ Application run in local environment by running  with address 127.0.0.1:5000</pr
 <img src="https://i.imgur.com/sgiu17j.png">
 
 <h4>References:</h4>
-
-<a href="https://flask.palletsprojects.com/en/1.1.x/quickstart/">https://flask.palletsprojects.com/en/1.1.x/quickstart/</a>
-<a href="https://scotch.io/tutorials/authentication-and-authorization-with-flask-login">https://scotch.io/tutorials/authentication-and-authorization-with-flask-login</a>
-<a href="https://www.pyimagesearch.com/2019/02/25/black-and-white-image-colorization-with-opencv-and-deep-learning/">https://www.pyimagesearch.com/2019/02/25/black-and-white-image-colorization-with-opencv-and-deep-learning/</a>
+<ui>
+<li><a href="https://flask.palletsprojects.com/en/1.1.x/quickstart/">https://flask.palletsprojects.com/en/1.1.x/quickstart/</a></li>
+<li><a href="https://scotch.io/tutorials/authentication-and-authorization-with-flask-login">https://scotch.io/tutorials/authentication-and-authorization-with-flask-login</a></li>
+<li><a href="https://www.pyimagesearch.com/2019/02/25/black-and-white-image-colorization-with-opencv-and-deep-learning/">https://www.pyimagesearch.com/2019/02/25/black-and-white-image-colorization-with-opencv-and-deep-learning/</a></li>
